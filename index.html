@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Home | BLGC Beauty Care</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="apple-touch-icon" href="assets/images/favicon.png" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/vendors/plugins.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script data-pagespeed-no-defer>
+      //<![CDATA[
+      (function () {
+        function f(a, b, d) {
+          if (a.addEventListener) a.addEventListener(b, d, !1);
+          else if (a.attachEvent) a.attachEvent("on" + b, d);
+          else {
+            var c = a["on" + b];
+            a["on" + b] = function () {
+              d.call(this);
+              c && c.call(this);
+            };
+          }
+        }
+        window.pagespeed = window.pagespeed || {};
+        var g = window.pagespeed;
+        function k(a) {
+          this.g = [];
+          this.f = 0;
+          this.h = !1;
+          this.j = a;
+          this.i = null;
+          this.l = 0;
+          this.b = !1;
+          this.a = 0;
+        }
+        function l(a, b) {
+          var d = b.getAttribute("data-pagespeed-lazy-position");
+          if (d) return parseInt(d, 0);
+          var d = b.offsetTop,
+            c = b.offsetParent;
+          c && (d += l(a, c));
+          d = Math.max(d, 0);
+          b.setAttribute("data-pagespeed-lazy-position", d);
+          return d;
+        }
+        function m(a, b) {
+          var d, c, e;
+          if (!a.b && (0 == b.offsetHeight || 0 == b.offsetWidth)) return !1;
+          a: if (b.currentStyle) c = b.currentStyle.position;
+          else {
+            if (
+              document.defaultView &&
+              document.defaultView.getComputedStyle &&
+              (c = document.defaultView.getComputedStyle(b, null))
+            ) {
+              c = c.getPropertyValue("position");
+              break a;
+            }
+            c = b.style && b.style.position ? b.style.position : "";
+          }
+          if ("relative" == c) return !0;
+          e = 0;
+          "number" == typeof window.pageYOffset
+            ? (e = window.pageYOffset)
+            : document.body && document.body.scrollTop
+            ? (e = document.body.scrollTop)
+            : document.documentElement &&
+              document.documentElement.scrollTop &&
+              (e = document.documentElement.scrollTop);
+          d =
+            window.innerHeight ||
+            document.documentElement.clientHeight ||
+            document.body.clientHeight;
+          c = e;
+          e += d;
+          var h = b.getBoundingClientRect();
+          h
+            ? ((e = h.top - d), (c = h.bottom))
+            : ((h = l(a, b)),
+              (d = h + b.offsetHeight),
+              (e = h - e),
+              (c = d - c));
+          return e <= a.f && 0 <= c + a.f;
+        }
+        k.prototype.m = function (a) {
+          p(a);
+          var b = this;
+          window.setTimeout(function () {
+            var d = a.getAttribute("data-pagespeed-lazy-src");
+            if (d)
+              if ((b.h || m(b, a)) && -1 != a.src.indexOf(b.j)) {
+                var c = a.parentNode,
+                  e = a.nextSibling;
+                c && c.removeChild(a);
+                a.c && (a.getAttribute = a.c);
+                a.removeAttribute("onload");
+                a.tagName &&
+                  "IMG" == a.tagName &&
+                  g.CriticalImages &&
+                  f(a, "load", function () {
+                    g.CriticalImages.checkImageForCriticality(this);
+                    b.b &&
+                      (b.a--, b.a || g.CriticalImages.checkCriticalImages());
+                  });
+                a.removeAttribute("data-pagespeed-lazy-src");
+                a.removeAttribute("data-pagespeed-lazy-replaced-functions");
+                c && c.insertBefore(a, e);
+                if ((c = a.getAttribute("data-pagespeed-lazy-srcset")))
+                  (a.srcset = c),
+                    a.removeAttribute("data-pagespeed-lazy-srcset");
+                a.src = d;
+              } else b.g.push(a);
+          }, 0);
+        };
+        k.prototype.loadIfVisibleAndMaybeBeacon = k.prototype.m;
+        k.prototype.s = function () {
+          this.h = !0;
+          q(this);
+        };
+        k.prototype.loadAllImages = k.prototype.s;
+        function q(a) {
+          var b = a.g,
+            d = b.length;
+          a.g = [];
+          for (var c = 0; c < d; ++c) a.m(b[c]);
+        }
+        function t(a, b) {
+          return a.a ? null != a.a(b) : null != a.getAttribute(b);
+        }
+        k.prototype.u = function () {
+          for (
+            var a = document.getElementsByTagName("img"), b = 0, d;
+            (d = a[b]);
+            b++
+          )
+            t(d, "data-pagespeed-lazy-src") && p(d);
+        };
+        k.prototype.overrideAttributeFunctions = k.prototype.u;
+        function p(a) {
+          t(a, "data-pagespeed-lazy-replaced-functions") ||
+            ((a.c = a.getAttribute),
+            (a.getAttribute = function (a) {
+              "src" == a.toLowerCase() &&
+                t(this, "data-pagespeed-lazy-src") &&
+                (a = "data-pagespeed-lazy-src");
+              return this.c(a);
+            }),
+            a.setAttribute("data-pagespeed-lazy-replaced-functions", "1"));
+        }
+        g.o = function (a, b) {
+          function d() {
+            if (!((c.b && a) || c.i)) {
+              var b = 200;
+              200 < new Date().getTime() - c.l && (b = 0);
+              c.i = window.setTimeout(function () {
+                c.l = new Date().getTime();
+                q(c);
+                c.i = null;
+              }, b);
+            }
+          }
+          var c = new k(b);
+          g.lazyLoadImages = c;
+          f(window, "load", function () {
+            c.b = !0;
+            c.h = a;
+            c.f = 200;
+            if (g.CriticalImages) {
+              for (
+                var b = 0, d = document.getElementsByTagName("img"), r = 0, n;
+                (n = d[r]);
+                r++
+              )
+                -1 != n.src.indexOf(c.j) &&
+                  t(n, "data-pagespeed-lazy-src") &&
+                  b++;
+              c.a = b;
+              c.a || g.CriticalImages.checkCriticalImages();
+            }
+            q(c);
+          });
+          b.indexOf("data") && (new Image().src = b);
+          f(window, "scroll", d);
+          f(window, "resize", d);
+        };
+        g.lazyLoadInit = g.o;
+      })();
+
+      pagespeed.lazyLoadInit(
+        true,
+        "../../../../pagespeed_static/1.JiBnMqyl6S.gif"
+      );
+
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id="wrapper" class="wrapper">
+      <div id="tm-home-area" class="tm-header tm-header-sticky">
+        <!-- <div class="tm-header-toparea">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-8">
+                <ul class="tm-header-info">
+                  <li>
+                    <i class="ti ti-mobile"></i><b>Contact:</b>
+                    <a href="tel:18009156270">1-800-915-6270 </a>
+                  </li>
+                  <li>
+                    <i class="ti ti-time"></i><b>Work time:</b> 9:00-18:00
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="tm-header-icons">
+                  <li>
+                    <a href="#appointment-area" class="hash-scroll-link"
+                      >Book Appointment</a
+                    >
+                  </li>
+                  <li>
+                    <a href="cart.html"><i class="ti ti-shopping-cart"></i></a>
+                  </li>
+                  <li>
+                    <a href="login-register.html"><i class="ti ti-user"></i></a>
+                  </li>
+                  <li>
+                    <button class="tm-header-searchtrigger">
+                      <i class="ti ti-search"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="tm-header-bottomarea">
+          <div class="container">
+            <div class="tm-header-bottominside">
+              <!-- <div class="tm-header-searcharea">
+                <form action="#">
+                  <input type="text" placeholder="Enter search keyword.." />
+                  <button type="submit"><i class="ti ti-search"></i></button>
+                </form>
+                <button class="tm-header-searchclose">
+                  <i class="ti ti-close"></i>
+                </button>
+              </div> -->
+              <div class="tm-header-inner">
+                <a href="index.html" class="tm-header-logo">
+                  <img src="blgc/logo.png" alt="" />
+                </a>
+                <nav class="tm-header-nav">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#abou-us.html">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </nav>
+                <div class="tm-header-button">
+                  <a href="#appointment-area" class="tm-button hash-scroll-link"
+                    >Book Appointment</a
+                  >
+                </div>
+                <div class="tm-mobilenav"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tm-heroslider-area">
+        <div class="tm-heroslider-slider">
+          <div
+            class="tm-heroslider"
+            data-bgimage="blgc/slider/slide1.jpg">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-7 col-md-9">
+                  <div class="tm-heroslider-contentwrapper">
+                    <div class="tm-heroslider-content">
+                      <h1>A thing of beauty is a joy forever for women</h1>
+                      <p>
+                        The experience of beauty often involves an
+                        interpretation of some entity as being in balance.
+                      </p>
+                      <a href="#" class="tm-button">Read more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tm-heroslider"
+            data-bgimage="blgc/slider/slide2.jpg">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-7 col-md-9">
+                  <div class="tm-heroslider-contentwrapper">
+                    <div class="tm-heroslider-content">
+                      <h1>Beauty have changed greatly over the years</h1>
+                      <p>
+                        The experience of beauty often involves an
+                        interpretation of some entity as being in balance.
+                      </p>
+                      <a href="#" class="tm-button">Read more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tm-heroslider"
+            data-bgimage="blgc/slider/slide3.jpg">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-7 col-md-9">
+                  <div class="tm-heroslider-contentwrapper">
+                    <div class="tm-heroslider-content">
+                      <h1>Beauty is first and foremost an emotion</h1>
+                      <p>
+                        The experience of beauty often involves an
+                        interpretation of some entity as being in balance.
+                      </p>
+                      <a href="#" class="tm-button">Read more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="tm-heroslider-social">
+          <li>
+            <a href="#" title="facebook"><i class="ti ti-facebook"></i></a>
+            <span class="tm-heroslider-social-tooltip">Facebook</span>
+          </li>
+          <li>
+            <a href="#" title="twitter"><i class="ti ti-twitter-alt"></i></a>
+            <span class="tm-heroslider-social-tooltip">Twitter</span>
+          </li>
+          <li>
+            <a href="#" title="pinterest"><i class="ti ti-pinterest"></i></a>
+            <span class="tm-heroslider-social-tooltip">Pinterest</span>
+          </li>
+        </ul>
+      </div>
+      <main class="page-content">
+        <section
+          id="tm-about-area"
+          class="tm-section tm-about-area tm-padding-section bg-white"
+          data-bgimage="blgc/slider/about-bg-image.png"
+          data-white-overlay="8"
+        >
+          <div class="container">
+            <div
+              class="tm-about tm-scrollanim"
+              data-bgimage="blgc/about/firstimg.jpg"
+            >
+              <div class="row">
+                <div class="col-xl-9 col-lg-9">
+                  <h3>Welcome to <span>BLGC Beauty Care</span></h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa id non ipsum est atque aut blanditiis ipsam iure eligendi delectus provident expedita dignissimos praesentium minima soluta asperiores cupiditate consequuntur illo, sequi facere explicabo officia vero deserunt? Voluptatem eos architecto unde exercitationem nihil, ipsam laborum dolorem, soluta cumque, impedit quae.
+                  </p>
+                  <a href="#" class="tm-button">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="bg_color">
+          <div
+          id="tm-service-area"
+          class="tm-section tm-service-area tm-padding-section"
+        >
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xl-6 col-lg-8 col-md-9 col-12">
+                <div class="tm-sectiontitle text-center">
+                  <h2>Our Services</h2>
+                  <span class="tm-sectiontitle-divider">
+                    <img
+                      data-pagespeed-lazy-src="assets/images/section-divider-icon.png"
+                      alt="section divider"
+                      src="blgc/icons.png"
+                      onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                      onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                    />
+                  </span>
+                  <p>
+                    Lorem ipsum dolor sittem ametamngcing elit, per sed do
+                    eiusmoad teimpor sittem elit inuning ut sed sittem do
+                    eiusmod.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row no-gutters tm-service-wrapper">
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="tm-service text-center tm-scrollanim  bg-white">
+                  <span class="tm-service-icon">
+                    <i class="flaticon-make-up"></i>
+                  </span>
+                  <h5>All Mackup</h5>
+                  <p>
+                    At BLGC, we are passionate about beauty and empowering everyone to feel confident in their skin. Our makeup collection...
+                  </p>
+                  <a href="#" class="tm-readmore tm-readmore-dark">Read more</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="tm-service text-center tm-scrollanim  bg-white">
+                  <span class="tm-service-icon">
+                    <i class="flaticon-facial-mask"></i>
+                  </span>
+                  <h5>All Facial</h5>
+                  <p>
+                    Book your facial treatment at BLGC today and treat yourself to the ultimate skincare experience...
+
+
+                  </p>
+                  <a href="#" class="tm-readmore tm-readmore-dark">Read more</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="tm-service text-center tm-scrollanim  bg-white">
+                  <span class="tm-service-icon">
+                    <i class="flaticon-skin-care"></i>
+                  </span>
+                  <h5>Nail Extention</h5>
+                  <p>
+                    Transform your nails with our premium nail extensions that add length and strength to your natural nails...
+                  </p>
+                  <a href="#" class="tm-readmore tm-readmore-dark">Read more</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="tm-service text-center tm-scrollanim  bg-white">
+                  <span class="tm-service-icon">
+                    <i class="flaticon-liner"></i>
+                  </span>
+                  <h5>Hair Treatment</h5>
+                  <p>
+                    At BLGC, we believe that healthy, beautiful hair is within reach for everyone. Our expert stylists are dedicated...
+                  </p>
+                  <a href="#" class="tm-readmore tm-readmore-dark">Read more</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="tm-service text-center tm-scrollanim  bg-white">
+                  <span class="tm-service-icon">
+                    <i class="flaticon-makeup"></i>
+                  </span>
+                  <h5>Spa</h5>
+                  <p>
+                    At BLGC, we are committed to providing you with a serene and indulgent spa experience that nourishes your mind...
+                  </p>
+                  <a href="#" class="tm-readmore tm-readmore-dark">Read more</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="tm-service text-center tm-scrollanim  bg-white">
+                  <span class="tm-service-icon">
+                    <i class="flaticon-rent"></i>
+                  </span>
+                  <h5>Manicure & Pedicure</h5>
+                  <p>
+                    At BLGC, we believe that beautifully groomed hands and feet are a reflection of self-care and confidence...
+                  </p>
+                  <a href="#" class="tm-readmore tm-readmore-dark">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        
+        <!--============ Team Area Start ============-->
+        <div class="tm-section tm-member-area tm-padding-section bg-white">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xl-6 col-lg-8 col-md-9 col-12">
+                <div class="tm-sectiontitle text-center">
+                  <h2>Our Team</h2>
+                  <span class="tm-sectiontitle-divider">
+                    <img
+                      data-pagespeed-lazy-src="blgc/icons.png"
+                      alt="section divider"
+                      src="blgc/icons.png"
+                      onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                      onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                    />
+                  </span>
+                  <p>
+                    At BLGC, we take pride in our exceptional team of dedicated and talented professionals. Together, we work cohesively, driven by a shared passion for excellence and a commitment to providing top-notch services to our valued clients.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row tm-member-slider">
+              <div class="col-lg-4">
+                <div class="tm-member tm-scrollanim">
+                  <div class="tm-member-topside">
+                    <img
+                      src="blgc/team/gyanwati-sharma.jpg"
+                      alt="team member"
+                    />
+                    <ul>
+                      <li>
+                        <a href="#"><i class="ti ti-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-pinterest"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tm-member-bottomside">
+                    <h6>Gyanwati Sharma</h6>
+                    <p>Mackup Artist (CEO)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tm-member tm-scrollanim">
+                  <div class="tm-member-topside">
+                    <img src="blgc/team/manisha-sharma.jpg" alt="team member"/>
+                    <ul>
+                      <li>
+                        <a href="#"><i class="ti ti-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-pinterest"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tm-member-bottomside">
+                    <h6>Manisha Sharma</h6>
+                    <p>.....</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tm-member tm-scrollanim">
+                  <div class="tm-member-topside">
+                    <img src="blgc/team/dushyant-sharma.jpg" alt="team member"/>
+                    <ul>
+                      <li>
+                        <a href="#"><i class="ti ti-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-pinterest"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tm-member-bottomside">
+                    <h6>Dushyant Sharma</h6>
+                    <p>.....</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tm-member tm-scrollanim">
+                  <div class="tm-member-topside">
+                    <img
+                      src="blgc/team/gyanwati-sharma.jpg"
+                      alt="team member"
+                    />
+                    <ul>
+                      <li>
+                        <a href="#"><i class="ti ti-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-pinterest"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tm-member-bottomside">
+                    <h6>Gyanwati Sharma</h6>
+                    <p>Mackup Artist (CEO)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tm-member tm-scrollanim">
+                  <div class="tm-member-topside">
+                    <img src="blgc/team/manisha-sharma.jpg" alt="team member"/>
+                    <ul>
+                      <li>
+                        <a href="#"><i class="ti ti-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-pinterest"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tm-member-bottomside">
+                    <h6>Manisha Sharma</h6>
+                    <p>.....</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="tm-member tm-scrollanim">
+                  <div class="tm-member-topside">
+                    <img src="blgc/team/dushyant-sharma.jpg" alt="team member"/>
+                    <ul>
+                      <li>
+                        <a href="#"><i class="ti ti-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="ti ti-pinterest"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tm-member-bottomside">
+                    <h6>Dushyant Sharma</h6>
+                    <p>.....</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--============ Team Area End ============-->
+
+        <!--============ Gallery Area Start ==========-->
+        <section class="lightbg">
+          <div class="tm-section tm-portfolio-area tm-padding-section">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-8 col-md-9 col-12">
+                  <div class="tm-sectiontitle text-center">
+                    <h2>Gallery</h2>
+                    <span class="tm-sectiontitle-divider">
+                      <img data-pagespeed-lazy-src="assets/images/section-divider-icon.png" src="blgc/icons.png" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row tm-portfolio-wrapper mt-30-reverse">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
+                  <div class="tm-portfolio tm-scrollanim">
+                    <a href="blgc/gallery/image1.jpg"
+                      data-fancybox="portfolio-gallery"
+                      data-caption="Self makeup at home">
+                      <img data-pagespeed-lazy-src="assets/images/portfolio/portfolio-image-1.jpg" alt="portfolio image" src="blgc/gallery/img1.jpg" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/>
+                    </a>
+                    <span class="tm-portfolio-icon"
+                      ><i class="ti ti-fullscreen"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
+                  <div class="tm-portfolio tm-scrollanim">
+                    <a href="blgc/gallery/image2.jpg"
+                      data-fancybox="portfolio-gallery"
+                      data-caption="Self makeup at home">
+                      <img data-pagespeed-lazy-src="assets/images/portfolio/portfolio-image-1.jpg" alt="portfolio image" src="blgc/gallery/img2.jpg" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/>
+                    </a>
+                    <span class="tm-portfolio-icon"
+                      ><i class="ti ti-fullscreen"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
+                  <div class="tm-portfolio tm-scrollanim">
+                    <a href="blgc/gallery/image3.jpg"
+                      data-fancybox="portfolio-gallery"
+                      data-caption="Self makeup at home">
+                      <img data-pagespeed-lazy-src="assets/images/portfolio/portfolio-image-1.jpg" alt="portfolio image" src="blgc/gallery/img3.jpg" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/>
+                    </a>
+                    <span class="tm-portfolio-icon"
+                      ><i class="ti ti-fullscreen"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
+                  <div class="tm-portfolio tm-scrollanim">
+                    <a href="blgc/gallery/image4.jpg"
+                      data-fancybox="portfolio-gallery"
+                      data-caption="Self makeup at home">
+                      <img data-pagespeed-lazy-src="assets/images/portfolio/portfolio-image-1.jpg" alt="portfolio image" src="blgc/gallery/img4.jpg" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/>
+                    </a>
+                    <span class="tm-portfolio-icon"
+                      ><i class="ti ti-fullscreen"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
+                  <div class="tm-portfolio tm-scrollanim">
+                    <a href="blgc/gallery/image5.jpg"
+                      data-fancybox="portfolio-gallery"
+                      data-caption="Self makeup at home">
+                      <img data-pagespeed-lazy-src="assets/images/portfolio/portfolio-image-1.jpg" alt="portfolio image" src="blgc/gallery/img5.jpg" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/>
+                    </a>
+                    <span class="tm-portfolio-icon"
+                      ><i class="ti ti-fullscreen"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
+                  <div class="tm-portfolio tm-scrollanim">
+                    <a href="blgc/gallery/image6.jpg"
+                      data-fancybox="portfolio-gallery"
+                      data-caption="Self makeup at home">
+                      <img data-pagespeed-lazy-src="assets/images/portfolio/portfolio-image-1.jpg" alt="portfolio image" src="blgc/gallery/img6.jpg" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/>
+                    </a>
+                    <span class="tm-portfolio-icon"
+                      ><i class="ti ti-fullscreen"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
+                  <div class="tm-portfolio tm-scrollanim">
+                    <a href="blgc/gallery/image7.jpg"
+                      data-fancybox="portfolio-gallery"
+                      data-caption="Self makeup at home">
+                      <img data-pagespeed-lazy-src="assets/images/portfolio/portfolio-image-1.jpg" alt="portfolio image" src="blgc/gallery/img7.jpg" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/>
+                    </a>
+                    <span class="tm-portfolio-icon"
+                      ><i class="ti ti-fullscreen"></i
+                    ></span>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-30">
+                  <div class="tm-portfolio tm-scrollanim">
+                    <a href="blgc/gallery/image8.jpg"
+                      data-fancybox="portfolio-gallery"
+                      data-caption="Self makeup at home">
+                      <img data-pagespeed-lazy-src="assets/images/portfolio/portfolio-image-1.jpg" alt="portfolio image" src="blgc/gallery/img8.jpg" onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                        onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"/>
+                    </a>
+                    <span class="tm-portfolio-icon"
+                      ><i class="ti ti-fullscreen"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+              <div class="tm-portfolio-loadmore text-center mt-50">
+                <a href="#" class="tm-button">Load More</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--============ Gallery Area End ==========-->
+        
+
+        <!--============ Call Area Start ============-->
+        <div class="tm-section tm-calltoaction-area secbg_color">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="tm-calltoaction-image tm-scrollanim">
+                  <img
+                    data-pagespeed-lazy-src="blgc/about/cosmetic.png"
+                    alt="calltoaction image"
+                    src="blgc/about/cosmetic.png"
+                    onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                    onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="tm-calltoaction-content tm-scrollanim">
+                  <h3>Need any type of cosmetic! Please</h3>
+                  <h4>
+                    <a href="tel:+919897925718"><i class="ti ti-mobile"></i> Call: +91 98979 25718</a>
+                  </h4>
+                  <h4><span>OR</span></h4>
+                  <a href="#contactus-area" class="tm-button hash-scroll-link"
+                    >Contact Us</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--============ Call Area End ============-->
+
+
+        <!--============ Appointment Area Start ============-->
+        <div id="tm-contactus-area" class="tm-section tm-contact-area tm-padding-section bg-white" data-bgimage="assets/images/contact-us-background.png" data-white-overlay="8">
+          <div class="container">
+            <div class="tm-contact-bottom tm-padding-section-top">
+              <div class="row mt-50-reverse">
+                <div class="col-lg-12">
+                  <h3>Book Your Appointment Today!</h3>
+                </div>
+                <div class="col-lg-7">
+                  <div class="tm-contact-formwrapper mt-30">
+                    <form
+                      id="tm-contactform"
+                      action="#"
+                      class="tm-contact-forminner tm-form"
+                      method="POST">
+                      <div class="tm-form-inner">
+                        <div class="tm-form-field tm-form-fieldhalf">
+                          <input type="text" placeholder="Name (required)" name="name" required/>
+                        </div>
+                        <div class="tm-form-field tm-form-fieldhalf">
+                          <input type="email" placeholder="Email (required)" name="email" required/>
+                        </div>
+                        <div class="tm-form-field tm-form-fieldhalf">
+                          <input type="text" placeholder="Phone Number (required)" name="phone" required/>
+                        </div>
+                        <div class="tm-form-field tm-form-fieldhalf">
+                          <input type="text" placeholder="Subject" name="subject"/>
+                        </div>
+                        <div class="tm-form-field">
+                          <textarea cols="30" rows="5" placeholder="Message" name="message"></textarea>
+                        </div>
+                        <div class="tm-form-field">
+                          <button type="submit" class="tm-button tm-button-block">
+                            Send Now
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                    <p class="form-messages"></p>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="tm-contact-top mt-30">
+                    <div class="tm-contact-address">
+                      <h4>Our Office Location</h4>
+                      <div class="tm-contact-addressblock ">
+                        <b>Address</b>
+                        <p>
+                          Near Abha Hotel, Ram Ghat Road, Aligarh, Uttar Pradesh
+                        </p>
+                      </div>
+                      <div class="tm-contact-addressblock">
+                        <b>Email</b>
+                        <p><a href="mailto:blgcbeautycare@gmail.com">blgcbeautycare@gmail.com</a>
+                        </p>
+                      </div>
+                      <div class="tm-contact-addressblock">
+                        <b>Phone</b>
+                        <p><a href="tel:+91-9897925718">+91-9897925718</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--============ Appointment Area End ============-->
+
+      </main>
+
+      <div class="section">
+        <div class="container-fluid pzero">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112827.56464515899!2d78.00627655768946!3d27.906226450268107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974a48686459c8b%3A0x95d967276d323613!2sAligarh%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1716581110804!5m2!1sen!2sin" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="tm-footer dark_bg">
+        <ul id="instafeed" class="tm-instaphotos"></ul>
+        <div class="tm-footer-toparea tm-padding-section">
+          <div class="container">
+            <div class="widgets widgets-footer row">
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="single-widget widget-info">
+                  <a class="widget-info-logo" href="index.html"
+                    ><img src="blgc/logo.png" alt="white logo"
+                  /></a>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi officia itaque illum velit quam, accusantium tempora saepe pariatur nulla, quae nam nostrum voluptatem ut asperiores qui inventore. Deserunt, quos corrupti.
+                  </p>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="ti ti-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ti ti-pinterest"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ti ti-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="single-widget widget-quicklinks">
+                  <h4 class="widget-title">Quick Links</h4>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="single-widget widget-recentpost-2">
+                  <h4 class="widget-title">Opening Hours</h4>
+                  <ul>
+                    <li><span>Mon </span>: 9.00 AM - 10.00 PM</li>
+                    <li><span>Tues </span>: 9.00 AM - 10.00 PM</li>
+                    <li><span>Wed </span>: 9.00 AM - 10.00 PM</li>
+                    <li><span>Thur </span>: 9.00 AM - 10.00 PM</li>
+                    <li><span>Fri </span>: 9.00 AM - 10.00 PM</li>
+                    <li><span>Sat </span>: 9.00 AM - 10.00 PM</li>
+                    <li><span>Sun </span>: Closed</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="single-widget widget-hours">
+                  <h4 class="widget-title">Contact Details</h4>
+                  <ul>
+                    <li class="mb_12"><span>Address </span>: Near Abha Hotel, Ram Ghat Road, Aligarh, Uttar Pradesh</li>
+                    <li class="mb_12"><span>Mobile no. </span>: &nbsp; <a href="tel:+91-9897925718">+91-9897925718</a></li>
+                    <li class="mb_12"><span>Email </span>: &nbsp; <a href="blgcbeautycare@gmail.com">blgcbeautycare@gmail.com</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tm-footer-bottomarea dark_bg">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <p class="tm-footer-copyright text-center text-white">
+                  Copyright &copy; 2024 BLGC Beauty Care. All Rights Reserve.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="back-top-top"><i class="ti ti-arrow-up"></i></button>
+    </div>
+    <script type="text/javascript" data-pagespeed-no-defer>
+      pagespeed.lazyLoadImages.overrideAttributeFunctions();
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgwgIuDRkO7HlxvpWN-vPePnGVWss5r5g"></script>
+    <script src="assets/js/google-map.js"></script>
+    <script src="assets/js/vendors/plugins.min.js"></script>
+    <script src="assets/js/google-map.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+
+</html>
