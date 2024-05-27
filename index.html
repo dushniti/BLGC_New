@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Home | BLGC Beauty Care </title>
+    <title>Home | BLGC Beauty Care</title>
     <meta name="description" content="" />
     <meta
       name="viewport"
@@ -261,10 +261,20 @@
                 <nav class="tm-header-nav">
                   <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#abou-us.html">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="abou-us.html">About</a></li>
+                    <li class="tm-header-nav-dropdown">
+                      <a href="#tm-home-area">Our Services</a>
+                      <ul>
+                        <li><a href="#">All Mackup</a></li>
+                        <li><a href="#">All Facial</a></li>
+                        <li><a href="#">Nail Extention</a></li>
+                        <li><a href="#">Hair Treatment</a></li>
+                        <li><a href="#">Spa</a></li>
+                        <li><a href="#">Manicure & Pedicure</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="gallery">Gallery</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
                   </ul>
                 </nav>
                 <div class="tm-header-button">
@@ -846,7 +856,15 @@
                           <input type="text" placeholder="Phone Number (required)" name="phone" required/>
                         </div>
                         <div class="tm-form-field tm-form-fieldhalf">
-                          <input type="text" placeholder="Subject" name="subject"/>
+                          <select name="services" id="services">
+                            <option value="All Mackup">-- Select Services --</option>
+                            <option value="All Mackup">All Mackup</option>
+                            <option value="All Facial">All Facial</option>
+                            <option value="Nail Extention">Nail Extention</option>
+                            <option value="Hair Treatment">Hair Treatment</option>
+                            <option value="Spa">Spa</option>
+                            <option value="Manicure and Pedicure">Manicure and Pedicure</option>
+                          </select>
                         </div>
                         <div class="tm-form-field">
                           <textarea cols="30" rows="5" placeholder="Message" name="message"></textarea>
