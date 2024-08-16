@@ -551,7 +551,7 @@ input[type=radio]:checked~label::before{
     background-color:#3498db!important
 }
 .bg-grey{
-    background-color:#fdf4f3
+    background-color: #ffe5b8;
 }
 .bg-dark{
     background-color:#202020!important
@@ -3773,6 +3773,7 @@ input[type=radio]:checked~label::before{
 }
 
 .single-widget ul li{
+    display: flex;
     font-size: 14px;
     color: #ffffff;
 }
